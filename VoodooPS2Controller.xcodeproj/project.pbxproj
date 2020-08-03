@@ -33,6 +33,23 @@
 		BA5C70D017338E8600E30E1A /* VoodooPS2TouchPadBase.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F4F859C067FD563476F515 /* VoodooPS2TouchPadBase.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A4A1495524D7E304006DB7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84167808161B55B2002C60E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8416782C161B5613002C60E6;
+			remoteInfo = VoodooPS2Keyboard;
+		};
+		A4A1495724D7E308006DB7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84167808161B55B2002C60E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84167854161B56C4002C60E6;
+			remoteInfo = VoodooPS2Trackpad;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		281899142302ADE100DD0027 /* VoodooPS2Keyboard-Breakless-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VoodooPS2Keyboard-Breakless-Info.plist"; sourceTree = "<group>"; };
 		281899152302ADE100DD0027 /* VoodooPS2Keyboard-RemapFN-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VoodooPS2Keyboard-RemapFN-Info.plist"; sourceTree = "<group>"; };
@@ -287,6 +304,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				A4A1495824D7E308006DB7CE /* PBXTargetDependency */,
+				A4A1495624D7E304006DB7CE /* PBXTargetDependency */,
 			);
 			name = VoodooPS2Controller;
 			productName = VoodooPS2Controller;
@@ -461,6 +480,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4A1495624D7E304006DB7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8416782C161B5613002C60E6 /* VoodooPS2Keyboard */;
+			targetProxy = A4A1495524D7E304006DB7CE /* PBXContainerItemProxy */;
+		};
+		A4A1495824D7E308006DB7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84167854161B56C4002C60E6 /* VoodooPS2Trackpad */;
+			targetProxy = A4A1495724D7E308006DB7CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		281899282302B27700DD0027 /* InfoPlist.strings */ = {
